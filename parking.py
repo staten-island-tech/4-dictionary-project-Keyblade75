@@ -1,7 +1,4 @@
-english=("T,T")
-french=("S,s")
-def lang(x,y):
-    s_count=french.count
-    t_count=english.count
-    for i in range(x):
-        
+def magnus(x):
+    Carlsen=0
+    Letters=["H""O""N""I"]
+    for letter in x
