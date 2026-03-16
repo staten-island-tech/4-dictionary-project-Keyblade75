@@ -13,23 +13,18 @@ def gamble(quarters,m1,m2,m3):
                         if one == 35:
                                 quarters += 29
                                 one == 0
-                                plays -=1
                                 if quarters == 0:
-                                       
-                
-                                        if stage == 2: 
-                                                two += 1
+                                       if stage == 2: 
+                                        two += 1
                         stage == 3
                         if two == 100:
                                 quarters += 59
                         two == 0
-                        plays -= 1
                 if stage == 3:
                        three += 1 
-                       stage == 1
                        if three == 10:
                         quarters += 9 and three == 0
-                        plays -=1
+                        stage == 1
                 if quarters == 0:
                       print(plays)
                       break
