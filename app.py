@@ -9,4 +9,4 @@ item={"name": "Insignia 8' 4K Ultra HD HDMI Cable",
           "description":"8' 4K HDMI cable for high quality video output."},
 for index, item in enumerate(best_buy_items):
     print(index, ":", item["name"]) 
-    print("Items in cart:", item["name"])     
+    print("Items in cart:", item["name"],item["price"])     
