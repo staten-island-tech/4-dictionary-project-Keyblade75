@@ -1,21 +1,16 @@
-sushi_orders = [
-    {"name": "California Roll", "price": 8},
-    {"name": "Spicy Tuna Roll", "price": 10},
-    {"name": "Salmon Nigiri", "price": 6},
-    {"name": "California Roll", "price": 8},
-    {"name": "Dragon Roll", "price": 12},
-    {"name": "Spicy Tuna Roll", "price": 10},
-    {"name": "Miso Soup", "price": 4},
-    {"name": "Edamame", "price": 5},
-    {"name": "Salmon Nigiri", "price": 6},
-    {"name": "California Roll", "price": 8}
-]
-def recipet(orders):
-    recipet = {}
+wards = {
+    "Cardiology":  ["Alice", "Bob", "Carol"],
+    "Neurology":   ["Diana", "Eve"],
+    "Orthopedics": ["Frank", "Grace", "Hank"],
+    "Oncology":    ["Ivy", "Bob"]
+}
 
-    for order in orders:
-        if order['name'] in recipet:
-            print("works")
-            "price": order['price'],
-            "quantity"
-recipet(sushi_orders)
+staff= {}
+
+for dept, docs in wards.items():
+    for doc in docs:
+        if doc not in staff:
+            staff[doc] = [dept]
+        staff[doc].append(dept)    
+
+print(staff['Bob'])
