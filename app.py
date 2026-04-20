@@ -12,7 +12,7 @@ best_buy_items= item=[{
           "deprartment":"gaming",
           "description":"insert description here"},
           {"name": "playstaion 5",
-          "price":500,
+          "price":500.00,
           "department":"Gaming",
           "description":"insert description here"},]
 for index, item in enumerate(best_buy_items):
