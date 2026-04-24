@@ -16,4 +16,4 @@ best_buy_items= item=[{
           "department":"Gaming",
           "description":"insert description here"},]
 for index, item in enumerate(best_buy_items):
- print(index,"Items in cart:", item["name"],item["price"])     
+ print(index,"Items in cart:", item["name"],item["price"]) 
