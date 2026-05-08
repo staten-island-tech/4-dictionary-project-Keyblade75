@@ -17,4 +17,4 @@ best_buy_items= item=[{
           "description":"insert description here"},]
 for index, item in enumerate(best_buy_items):
  print(index,"Items in cart:", item["name"],item["price"])  
- x = input('proceed with purchase?')
+ x = input('proceed with purchase?') 
