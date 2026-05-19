@@ -17,4 +17,7 @@ best_buy_items= item=[{
           "description":"insert description here"},]
 for index, item in enumerate(best_buy_items):
     print(index, ":", item["name"])
-    while: 
+    while True:
+        user_input = input("Enter the index of the item you want to know more about (or 'q' to quit)") 
+        
+
