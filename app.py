@@ -23,10 +23,8 @@ best_buy_items=[{
     "description":"insert description here"
 }]
 
-while user_input != "q":
+while user_input := "q":
     user_input = input("Enter the index of the item you want to know more about (or 'q' to quit)")
     for item in best_buy_items:
-        if user_input == item["name"]
+        if user_input == item["name"]:
             print(item["name"], "\n", item["price"], item["description"])
-        
-
