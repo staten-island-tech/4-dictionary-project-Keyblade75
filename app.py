@@ -13,7 +13,7 @@ best_buy_items=[{
 {
     "name": "Play Station DualShock Wireless Contoller",
     "price": 60.00,
-    "deprartment":"Gaming",
+    "department":"Gaming",
     "description":"insert description here"
 },
 {
@@ -27,4 +27,4 @@ while user_input := "q":
     user_input = input("Enter the index of the item you want to know more about (or 'q' to quit)")
     for item in best_buy_items:
         if user_input == item["name"]:
-            print(item["name"], "\n", item["price"], item["description"])
+          print(item["name"], "\n", item["price"], item["description"])
